@@ -1,10 +1,14 @@
 import React from 'react'
+import Header from '../component/header'
 
 type Props = {}
 
 const platforms = (props: Props) => {
   return (
-    <div>platforms</div>
+    <>
+      <Header />
+      <div>platforms</div>
+    </>
   )
 }
 
