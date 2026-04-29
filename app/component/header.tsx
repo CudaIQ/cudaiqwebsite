@@ -11,7 +11,7 @@ export default function Header() {
                     
                     <nav className="hidden md:flex space-x-8 align-center">
                         <a href="/home" className="text-gray-700 hover:text-gray-900 h-fit">Home</a>
-                        <a href="#" className="text-gray-700 hover:text-gray-900 h-fit">Services</a>
+                        <a href="/services" className="text-gray-700 hover:text-gray-900 h-fit">Services</a>
                         <a href="#" className="text-gray-700 hover:text-gray-900 h-fit">Industries</a>
                         <a href="#" className="text-gray-700 hover:text-gray-900 h-fit">Platforms</a>
                         <a href="#" className="text-gray-700 hover:text-gray-900 h-fit">Case Study</a>

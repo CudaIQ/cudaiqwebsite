@@ -32,7 +32,7 @@ const Home: FC<HomeProps> = () => {
                     </a>
                 </div>
                 <div className='w-1/2'>
-                    <Image src={HeroVisual} alt="" width={500} height={300} />
+                    <Image src={HeroVisual} alt="" width={500} height={300} loading='eager'/>
                 </div>
             </div>
             <div className="section modules">
