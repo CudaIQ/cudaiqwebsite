@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import Header from '../component/layout/header';
 import Image from 'next/image';
 import HeroVisual from './Hero Visual (Data as Art).png';
 
@@ -11,7 +10,6 @@ interface HomeProps { }
 const Home: FC<HomeProps> = () => {
     return (
         <main className="flex flex-col min-h-screen">
-            <Header />
             <div className="flex-1 flex flex-row items-center justify-center px-4 w-1/2 mx-auto">
                 <div>
                     <h1 className="text-4xl font-bold mb-4">Modular AI, IoT &
