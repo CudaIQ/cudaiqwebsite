@@ -1,15 +1,13 @@
-import React from 'react'
-import Header from '../component/layout/Header'
+import IndustriesHeroSection from "@/components/sections/IndustriesHeroSection";
+import EcosystemStripSection from "@/components/sections/EcosystemStripSection";
+import IndustryPanelsSection from "@/components/sections/IndustryPanelsSection";
 
-type Props = {}
-
-const industries = (props: Props) => {
+export default function IndustriesPage() {
   return (
-    <>
-    <Header/>
-    <div>industries</div>
-    </>
-  )
+    <main>
+      <IndustriesHeroSection />
+      <EcosystemStripSection />
+      <IndustryPanelsSection />
+    </main>
+  );
 }
-
-export default industries

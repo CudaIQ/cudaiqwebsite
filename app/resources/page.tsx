@@ -1,11 +1,19 @@
-import React from 'react'
+import ResourcesHeroSection from "@/components/sections/ResourcesHeroSection";
+import ResourcesSidebar from "@/components/sections/ResourcesSidebar";
+import FeaturedResourcesSection from "@/components/sections/FeaturedResourcesSection";
+import ResourcesPaginationSection from "@/components/sections/ResourcesPaginationSection";
 
-type Props = {}
-
-const resources = (props: Props) => {
+export default function ResourcesPage() {
   return (
-    <div>resources</div>
-  )
+    <main>
+      <ResourcesHeroSection />
+      <section className="resources-layout-section">
+        <div className="container resources-layout-grid">
+          <ResourcesSidebar />
+          <FeaturedResourcesSection />
+        </div>
+      </section>
+      <ResourcesPaginationSection />
+    </main>
+  );
 }
-
-export default resources

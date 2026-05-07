@@ -1,15 +1,13 @@
-import React from 'react'
-import Header from '../component/layout/Header'
+import PlatformsHeroSection from "@/components/sections/PlatformsHeroSection";
+import PlatformEcosystemSection from "@/components/sections/PlatformEcosystemSection";
+import PlatformRowsSection from "@/components/sections/PlatformRowsSection";
 
-type Props = {}
-
-const platforms = (props: Props) => {
+export default function PlatformsPage() {
   return (
-    <>
-      <Header />
-      <div>platforms</div>
-    </>
-  )
+    <main>
+      <PlatformsHeroSection />
+      <PlatformEcosystemSection />
+      <PlatformRowsSection />
+    </main>
+  );
 }
-
-export default platforms

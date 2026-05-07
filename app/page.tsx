@@ -1,13 +1,17 @@
-import Link from "next/link";
+import HeroSection from "@/components/sections/HeroSection";
+import CoreModulesSection from "@/components/sections/CoreModulesSection";
+import DeploymentSectorsSection from "@/components/sections/DeploymentSectorsSection";
+import BrandStripSection from "@/components/sections/BrandStripSection";
+import FinalCtaSection from "@/components/sections/FinalCtaSection";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <>
-      <h1>Welcome to Next.js</h1>
-      <p>Get started by editing this page.</p>
-      <Link href="/home" className="text-blue-500 hover:underline">
-        Go to Home Page
-      </Link>
-    </>
+    <main>
+      <HeroSection />
+      <CoreModulesSection />
+      <DeploymentSectorsSection />
+      <BrandStripSection />
+      <FinalCtaSection />
+    </main>
   );
 }

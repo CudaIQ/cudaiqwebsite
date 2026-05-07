@@ -1,11 +1,15 @@
-import React from 'react'
+import AboutHeroSection from "@/components/sections/AboutHeroSection";
+import StructuralDNASection from "@/components/sections/StructuralDNASection";
+import VisionRoadmapSection from "@/components/sections/VisionRoadmapSection";
+import FutureProofingSection from "@/components/sections/FutureProofingSection";
 
-type Props = {}
-
-const about = (props: Props) => {
+export default function AboutPage() {
   return (
-    <div>about</div>
-  )
+    <main>
+      <AboutHeroSection />
+      <StructuralDNASection />
+      <VisionRoadmapSection />
+      <FutureProofingSection />
+    </main>
+  );
 }
-
-export default about
