@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../component/header'
+import Header from '../component/layout/header'
 import Image from 'next/image'
 import HeroVisual1 from './Hero Visual (Data as Art).png';
 
